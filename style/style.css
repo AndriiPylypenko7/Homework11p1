@@ -1,6 +1,5 @@
 @font-face {
   font-family: "Playfair Display";
-
   src: url("https://nomail.com.ua/files/eot/8446d0665a61f525fc0f7a83465b45ac.eot?#iefix")
       format("embedded-opentype"),
     url("https://nomail.com.ua/files/woff/8446d0665a61f525fc0f7a83465b45ac.woff")
@@ -11,7 +10,6 @@
 
 @font-face {
   font-family: "Lato";
-
   src: url("https://nomail.com.ua/files/eot/1835f7d3644d5bb0f03ed5fdb40898d4.eot?#iefix")
       format("embedded-opentype"),
     url("https://nomail.com.ua/files/woff/1835f7d3644d5bb0f03ed5fdb40898d4.woff")
@@ -19,7 +17,6 @@
     url("https://nomail.com.ua/files/woff2/1835f7d3644d5bb0f03ed5fdb40898d4.woff2")
       format("woff2");
 }
-
 .page {
   width: 1400px;
   height: 940px;
@@ -28,51 +25,44 @@
   margin: auto;
   position: relative;
 }
-
 .page__wrapper {
   position: absolute;
   top: 140px;
   left: 123px;
   max-width: 1140px;
 }
-
 .page__title {
-  font-family: "Playfair Display";
+  font-family: "Playfair Display", sans-serif;
   font-size: 42px;
   font-weight: 400;
   letter-spacing: -0.21px;
   text-transform: capitalize;
 }
-
 .page__main-text {
-  font-family: "Lato";
+  font-family: "Lato", serif;
   font-size: 18px;
   color: #171717;
   letter-spacing: -0.09px;
   opacity: 0.7;
   line-height: 34px;
 }
-
 .page__main-text::first-letter {
   font-size: 110px;
-  font-family: "Playfair Display";
+  font-family: "Playfair Display", serif;
   line-height: 90px;
   float: left;
 }
-
 .page__footer-text {
-  font-family: "Lato";
+  font-family: "Lato", serif;
   font-size: 24px;
   font-style: italic;
   letter-spacing: -0.12px;
   opacity: 0.7;
 }
-
 .footer-text__symbol {
   margin-right: 20px;
   font-size: 60px;
 }
-
 .page__button {
   color: #eaa258;
   font-family: "Lato";
@@ -84,7 +74,6 @@
   width: 264px;
   cursor: pointer;
 }
-
 .page__button:hover {
   background-color: #eaa258;
   border: 2px solid #ffffff;
